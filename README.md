@@ -23,46 +23,55 @@
 
 ## English
 
-**E-Brochure PDF Flipbook** is a static interactive PDF A4 template designed for digital brochures, e-books, catalogs, and admin integration. 
-
-This template provides a clean folder structure, ready-to-use PDF flipbook, and MIT license for personal or experimental use. Users can preview in browser via `index.html`.
+**E-Brochure PDF Flipbook** is a static interactive PDF A4 template designed for digital brochures, e-books, catalogs, and admin integration. Users can preview the flipbook in a browser using `index.html`.
 
 ## Indonesia
 
-**E-Brochure PDF Flipbook** adalah template PDF A4 interaktif statis untuk brosur digital, e-book, katalog, dan integrasi unggahan admin.
-
-Template ini memiliki struktur folder bersih, flipbook PDF siap pakai, dan lisensi MIT untuk penggunaan pribadi atau eksperimen. Pengguna dapat melakukan preview di browser melalui `index.html`.
+**E-Brochure PDF Flipbook** adalah template PDF A4 interaktif statis untuk brosur digital, e-book, katalog, dan integrasi admin. Pengguna dapat melakukan preview di browser melalui `index.html`.
 
 ---
 
 ## Features | Fitur
 
 - Interactive PDF flipbook
-- Clean and simple folder structure
+- Clean folder structure
+- Easy preview via `index.html`
 - MIT License: free to use and modify
-- Easy preview with `index.html` in browser
+
+---
+
+## Tools & Workflow | Tools dan Alur Kerja
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=chatgpt,vscode,html,css,js&theme=dark&perline=5" alt="Tools Icons" />
+</p>
+
+**Used Tools:**  
+- **ChatGPT** – AI assisted development & content generation  
+- **VSCode** – Code editor for HTML, CSS, JS  
+- **HTML / CSS / JS** – Flipbook structure and interactive behavior  
 
 ---
 
 ## How to Use | Cara Menggunakan
 
-1. Download or clone this repository
+1. Clone this repository or download ZIP
 2. Replace PDF in `assets/brosur` folder if needed
-3. Open `index.html` in your browser to preview the flipbook
+3. Open `index.html` in a browser to preview
 4. Optionally customize viewer via `brochure-viewer.html` or `style.css`
 
 ---
 
 ## License | Lisensi
 
-MIT License. See the [LICENSE](./LICENSE) file for details.
+MIT License. See [LICENSE](./LICENSE) for details.
 
 ---
 
 ## Developer | Pengembang
 
-- **GLAND JERMANO BLESSED SIAHAAN**
-- Location: Medan, Indonesia
+- **GLAND JERMANO BLESSED SIAHAAN**  
+- Location: Medan, Indonesia  
 - GitHub: [GblessSHN-boop](https://github.com/GblessSHN-boop)
 
 <div align="center">
