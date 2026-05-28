@@ -19,11 +19,14 @@
 
 <br />
 
-<img src="https://img.shields.io/badge/Tools-ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-<img src="https://img.shields.io/badge/Tools-VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCode" />
-<img src="https://img.shields.io/badge/Tools-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/Tools-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/Tools-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+### Tools & Workflow | Tools dan Alur Kerja
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=chatgpt,vscode,html,css,js&theme=dark&perline=5" alt="Tools Icons" />
+</p>
+- **ChatGPT** – AI assisted development & content generation
+- **VSCode** – Code editor for HTML, CSS, JS
+- **HTML / CSS / JS** – Flipbook structure and interactive behavior
 
 </div>
 
@@ -33,15 +36,11 @@
 
 ## English
 
-**E-Brochure PDF Flipbook** is a static interactive PDF A4 template designed for digital brochures, e-books, catalogs, and admin integration. Users can preview the flipbook in a browser using `index.html`.
-
-This template provides a clean folder structure, ready-to-use flipbook viewer, and MIT license for personal or experimental use.
+**E-Brochure PDF Flipbook** is a static interactive PDF A4 template designed for digital brochures, e-books, catalogs, and future admin integration. Users can preview the flipbook in a browser using `index.html`.
 
 ## Indonesia
 
-**E-Brochure PDF Flipbook** adalah template PDF A4 interaktif statis untuk brosur digital, e-book, katalog, dan integrasi admin. Pengguna dapat melakukan preview di browser melalui `index.html`.
-
-Template ini memiliki struktur folder bersih, flipbook siap pakai, dan lisensi MIT untuk penggunaan pribadi atau eksperimen.
+**E-Brochure PDF Flipbook** adalah template PDF A4 interaktif statis untuk brosur digital, e-book, katalog, dan integrasi unggahan admin. Pengguna dapat melakukan preview di browser melalui `index.html`.
 
 ---
 
@@ -54,21 +53,11 @@ Template ini memiliki struktur folder bersih, flipbook siap pakai, dan lisensi M
 
 ---
 
-## Tools & Workflow | Tools dan Alur Kerja
-
-**Used Tools:**
-
-- **ChatGPT** – AI assisted development & content generation
-- **VSCode** – Code editor for HTML, CSS, JS
-- **HTML / CSS / JS** – Flipbook structure and interactive behavior
-
----
-
 ## How to Use | Cara Menggunakan
 
 1. Clone this repository or download ZIP
 2. Replace PDF in `assets/brosur` folder if needed
-3. Open `index.html` in a browser to preview
+3. Open `index.html` in your browser to preview
 4. Optionally customize viewer via `brochure-viewer.html` or `style.css`
 
 ---
@@ -84,8 +73,6 @@ MIT License. See the [LICENSE](./LICENSE) file for details.
 - **GLAND JERMANO BLESSED SIAHAAN**
 - Location: Medan, Indonesia
 - GitHub: [GblessSHN-boop](https://github.com/GblessSHN-boop)
-
----
 
 <div align="center">
 
