@@ -1,41 +1,8 @@
-﻿pdfjsLib.GlobalWorkerOptions.workerSrc =
-  "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
-
-const grid = document.getElementById("brochureGrid");
+﻿const grid = document.getElementById("brochureGrid");
 const mainDownload = document.getElementById("mainDownload");
 
 function slugUrl(id) {
   return "brochure-viewer.html?id=" + encodeURIComponent(id);
-}
-
-async function renderCover(pdfFile, canvas, loading) {
-  try {
-    const pdf = await pdfjsLib.getDocument(encodeURI(pdfFile)).promise;
-    const page = await pdf.getPage(1);
-    const viewport = page.getViewport({ scale: 2.5 });
-    const context = canvas.getContext("2d", { alpha: false });
-
-    canvas.width = Math.round(viewport.width);
-    canvas.height = Math.round(viewport.height);
-
-    await page.render({
-      canvasContext: context,
-      viewport: viewport
-    }).promise;
-
-    loading.style.display = "none";
-  } catch (error) {
-    loading.textContent = "Cover gagal dimuat";
-    console.error("Cover error:", error);
-  }
-}
-
-function createButton(className, href, text) {
-  const link = document.createElement("a");
-  link.className = className;
-  link.href = href;
-  link.textContent = text;
-  return link;
 }
 
 function renderBrochures() {
@@ -57,7 +24,7 @@ function renderBrochures() {
     mainDownload.href = brochures[0].download;
   }
 
-  brochures.forEach(function(item) {
+  brochures.forEach(function (item) {
     const card = document.createElement("article");
     card.className = "brochure-card";
 
@@ -69,14 +36,16 @@ function renderBrochures() {
     const coverFrame = document.createElement("div");
     coverFrame.className = "cover-frame";
 
-    const canvas = document.createElement("canvas");
+    const iframe = document.createElement("iframe");
+    iframe.src = item.cover + "#toolbar=0&navpanes=0&scrollbar=0";
+    iframe.title = "PDF Cover Preview";
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    iframe.style.border = "0";
+    iframe.style.display = "block";
+    iframe.style.pointerEvents = "none";
 
-    const loading = document.createElement("div");
-    loading.className = "cover-loading";
-    loading.textContent = "Memuat Cover";
-
-    coverFrame.appendChild(canvas);
-    coverFrame.appendChild(loading);
+    coverFrame.appendChild(iframe);
     coverLink.appendChild(coverFrame);
 
     const info = document.createElement("div");
@@ -91,9 +60,16 @@ function renderBrochures() {
     const actionRow = document.createElement("div");
     actionRow.className = "action-row";
 
-    const viewButton = createButton("view-button", slugUrl(item.id), "Lihat Brosur");
-    const downloadButton = createButton("download-button", item.download, "Download");
+    const viewButton = document.createElement("a");
+    viewButton.className = "view-button";
+    viewButton.href = slugUrl(item.id);
+    viewButton.textContent = "Lihat Brosur";
+
+    const downloadButton = document.createElement("a");
+    downloadButton.className = "download-button";
+    downloadButton.href = item.download;
     downloadButton.setAttribute("download", "");
+    downloadButton.textContent = "Download";
 
     actionRow.appendChild(viewButton);
     actionRow.appendChild(downloadButton);
@@ -106,10 +82,7 @@ function renderBrochures() {
     card.appendChild(info);
 
     grid.appendChild(card);
-
-    renderCover(item.cover, canvas, loading);
   });
 }
 
 renderBrochures();
-
