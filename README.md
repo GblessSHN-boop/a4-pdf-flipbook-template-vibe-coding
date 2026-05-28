@@ -21,13 +21,13 @@
 
 ---
 
-# E-Brochure PDF Flipbook Template
+## E-Brochure PDF Flipbook Template
 
-## English
+### English
 
 **E-Brochure PDF Flipbook** is a static interactive PDF A4 template designed for digital brochures, e-books, catalogs, and admin integration. Users can preview the flipbook in a browser using `index.html`.
 
-## Indonesia
+### Indonesia
 
 **E-Brochure PDF Flipbook** adalah template PDF A4 interaktif statis untuk brosur digital, e-book, katalog, dan integrasi admin. Pengguna dapat melakukan preview di browser melalui `index.html`.
 
@@ -45,14 +45,18 @@
 ## Tools & Workflow | Tools dan Alur Kerja
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,html,css,js,chatgpt&theme=dark&perline=6" alt="Tools Icons" />
+  <img src="https://img.icons8.com/fluency/48/000000/chatgpt.png" alt="ChatGPT" title="ChatGPT" />
+  <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png" alt="VSCode" title="VSCode" />
+  <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5" title="HTML5" />
+  <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" title="CSS3" />
+  <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript" title="JavaScript" />
 </p>
 
 **Used Tools:**
 
-- **ChatGPT** – AI assisted development & content generation
-- **VSCode** – Code editor for HTML, CSS, JS
-- **HTML / CSS / JS** – Flipbook structure and interactive behavior
+- ChatGPT – AI assisted development & content generation
+- VSCode – Code editor for HTML, CSS, JS
+- HTML / CSS / JS – Flipbook structure and interactive behavior
 
 ---
 
@@ -76,6 +80,8 @@ MIT License. See the [LICENSE](./LICENSE) file for details.
 - **GLAND JERMANO BLESSED SIAHAAN**
 - Location: Medan, Indonesia
 - GitHub: [GblessSHN-boop](https://github.com/GblessSHN-boop)
+
+---
 
 <div align="center">
 
