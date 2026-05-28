@@ -19,22 +19,24 @@
 
 </div>
 
+---
+
 # E-Brochure PDF Flipbook Template
 
 ## English
 
-**E-Brochure PDF Flipbook** is a static interactive PDF A4 template designed for digital brochures, e-books, catalogs, and admin integration. Users can preview the flipbook in a browser via `index.html`.
+**E-Brochure PDF Flipbook** is a static interactive PDF A4 template designed for digital brochures, e-books, catalogs, and admin integration. Users can preview the flipbook in a browser using `index.html`.
 
 ## Indonesia
 
-**E-Brochure PDF Flipbook** adalah template PDF A4 interaktif statis untuk brosur digital, e-book, katalog, dan integrasi unggahan admin. Pengguna dapat melakukan preview di browser melalui `index.html`.
+**E-Brochure PDF Flipbook** adalah template PDF A4 interaktif statis untuk brosur digital, e-book, katalog, dan integrasi admin. Pengguna dapat melakukan preview di browser melalui `index.html`.
 
 ---
 
 ## Features | Fitur
 
 - Interactive PDF flipbook
-- Clean and simple folder structure
+- Clean folder structure
 - Easy preview via `index.html`
 - MIT License: free to use and modify
 
@@ -43,12 +45,14 @@
 ## Tools & Workflow | Tools dan Alur Kerja
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ChatGPT-AI%20Assisted-74AA9C?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/VSCode-Code%20Editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCode" />
-  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-Styles-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-Behavior-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=vscode,html,css,js,chatgpt&theme=dark&perline=6" alt="Tools Icons" />
 </p>
+
+**Used Tools:**
+
+- **ChatGPT** – AI assisted development & content generation
+- **VSCode** – Code editor for HTML, CSS, JS
+- **HTML / CSS / JS** – Flipbook structure and interactive behavior
 
 ---
 
